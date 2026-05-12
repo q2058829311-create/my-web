@@ -3,67 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>小辣椒的个人主页 | XLajiao.com</title>
+    <title>轻语机场 | 稳定4K/8K秒开 - 性价比最高的机场</title>
     <style>
+        :root {
+            --primary-color: #007aff;
+            --bg-color: #f5f5f7;
+            --card-bg: #ffffff;
+            --text-main: #1d1d1f;
+            --text-sec: #86868b;
+        }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             line-height: 1.6;
-            color: #333;
-            max-width: 800px;
+            color: var(--text-main);
+            max-width: 900px;
             margin: 0 auto;
-            padding: 2rem;
-            background-color: #f9f9f9;
+            padding: 20px;
+            background-color: var(--bg-color);
         }
         header {
             text-align: center;
-            padding: 2rem 0;
-            border-bottom: 2px solid #ff4d4d;
+            padding: 40px 0;
         }
-        h1 { color: #ff4d4d; margin-bottom: 0.5rem; }
-        .tagline { font-style: italic; color: #666; }
-        section { background: white; padding: 1.5rem; margin-top: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        h2 { border-left: 4px solid #ff4d4d; padding-left: 1rem; font-size: 1.25rem; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin-bottom: 0.8rem; padding-bottom: 0.5rem; border-bottom: 1px dashed #eee; }
-        footer { text-align: center; margin-top: 3rem; font-size: 0.8rem; color: #999; }
-        a { color: #ff4d4d; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        h1 { font-size: 2.5rem; color: var(--primary-color); margin-bottom: 10px; }
+        .hero-text { font-size: 1.1rem; color: var(--text-sec); margin-bottom: 20px; }
+        
+        .btn-link {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 15px rgba(0,122,255,0.3);
+            transition: transform 0.2s;
+        }
+        .btn-link:hover { transform: translateY(-2px); }
+
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 { border-bottom: 2px solid var(--bg-color); padding-bottom: 10px; color: var(--primary-color); }
+        
+        /* 表格样式优化 */
+        .table-container { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #eee; padding: 12px; text-align: center; }
+        th { background-color: #fafafa; font-weight: 600; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .price-tag { color: #d70015; font-weight: bold; }
+
+        footer { text-align: center; margin-top: 50px; padding: 20px; font-size: 0.9rem; color: var(--text-sec); }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>🌶️ 小辣椒个人主页</h1>
-    <p class="tagline">热爱美食，热爱生活，探索互联网的每一个角落。</p>
+    <h1>🚀 轻语机场</h1>
+    <p class="hero-text">性价比最高的机场，稳定4K/8K秒开，支持ChatGPT/Netflix</p>
+    <a href="https://www.lajiaoyun.xyz" class="btn-link">立即进入官网</a>
+    <p style="margin-top:15px; font-size:0.9rem; color:#666;">注册即领免费试用：赠送2小时5G流量 + Emby权益</p>
 </header>
 
 <section>
-    <h2>关于我</h2>
-    <p>你好！我是小辣椒。这是一个存放我个人想法、摄影作品和美食食谱的小站。我目前正在学习 Web 开发和网络技术，希望通过这个平台记录我的成长。</p>
+    <h2>🌐 官网地址</h2>
+    <p>最新发布页：<a href="https://www.lajiaoyun.xyz" style="color:var(--primary-color); font-weight:bold;">lajiaoyun.xyz</a></p>
+    <p>专为外贸、影音及AI办公网络需求设计，专业BGP跨境专线，拒绝卡顿。</p>
 </section>
 
 <section>
-    <h2>最近更新</h2>
+    <h2>💡 机场介绍</h2>
+    <p>我们是一支积极向上、创新的编程团队，致力于为企业和个人提供卓越的VPN服务。提供高性能V2Ray/SS协议，解决您的跨境网络难题。</p>
     <ul>
-        <li>📅 <strong>2026-01-10</strong> - 分享了一份正宗川式辣酱的制作心得。</li>
-        <li>📅 <strong>2026-01-05</strong> - 升级了网站后台，访问速度显著提升。</li>
-        <li>📅 <strong>2025-12-25</strong> - 祝大家圣诞快乐！更新了一组冬季摄影作品。</li>
+        <li><strong>多功能支持：</strong> 支持 ChatGPT / Gemini / Netflix / TikTok。</li>
+        <li><strong>专业线路：</strong> 提供 TikTok 专线，针对企业需求提供个人专线和电商专线。</li>
+        <li><strong>稳定保障：</strong> 全 BGP 中转节点，极致加速体验。</li>
     </ul>
 </section>
 
 <section>
-    <h2>常用链接</h2>
-    <p>
-        <a href="#">我的博客</a> | 
-        <a href="#">摄影相册</a> | 
-        <a href="#">开源项目</a> | 
-        <a href="#">联系我</a>
-    </p>
+    <h2>💰 套餐价格</h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>套餐类型</th>
+                    <th>50G 全中转</th>
+                    <th>110G 全中转</th>
+                    <th>220G 全中转</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>月付</strong></td>
+                    <td class="price-tag">¥5</td>
+                    <td class="price-tag">¥10</td>
+                    <td class="price-tag">¥20</td>
+                </tr>
+                <tr>
+                    <td><strong>季付</strong></td>
+                    <td class="price-tag">¥15</td>
+                    <td class="price-tag">¥28.5</td>
+                    <td class="price-tag">¥57</td>
+                </tr>
+                <tr>
+                    <td><strong>半年付</strong></td>
+                    <td class="price-tag">¥27</td>
+                    <td class="price-tag">¥54</td>
+                    <td class="price-tag">¥108</td>
+                </tr>
+                <tr>
+                    <td><strong>年付</strong></td>
+                    <td class="price-tag">¥81</td>
+                    <td class="price-tag">¥102</td>
+                    <td class="price-tag">¥2104</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p style="margin-top:15px; font-weight:bold;">👉 不限时套餐：100G / <span class="price-tag">¥20</span></p>
 </section>
 
 <footer>
-    <p>&copy; 2026 XLajiao.com. 保留所有权利。</p>
-    <p>由 GitHub Pages 和 Cloudflare 提供技术支持</p>
+    <p>&copy; 2026 轻语机场 - XLajiao.com. 保留所有权利。</p>
+    <p>Powered by GitHub Pages & Cloudflare</p>
 </footer>
 
 </body>
